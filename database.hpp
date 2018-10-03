@@ -17,7 +17,7 @@ namespace Records {
                                   const std::string& lastName);
 
             void displayAll() const;
-            void displayCurrnet() const;
+            void displayCurrent() const;
             void displayFormer() const;
 
         private:

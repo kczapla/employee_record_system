@@ -49,7 +49,7 @@ namespace Records {
         }
     }
 
-    void Database::displayCurrnet() const {
+    void Database::displayCurrent() const {
         for (const auto& employee : mEmployees) {
             if (employee.isHired()) {
                 employee.display();
